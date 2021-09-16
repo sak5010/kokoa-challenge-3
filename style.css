@@ -5,7 +5,70 @@
   box-sizing: border-box;
 }
 
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  width: 500px;
+  height: 1500px;
+}
+
+.header-library {
+  position: relative;
+  background-color: #ffce33;
+  height: 150px;
+  padding: 0 30px;
+}
+
+.header-library__title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.header-library__title__span {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header-library__search-bar {
+  position: absolute;
+  bottom: -25px;
+  width: 440px;
+}
+
+.header-library__search-bar input {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  padding: 20px 40px;
+}
+
+.header-library__search-bar input:focus {
+  outline: none;
+}
+
+.header-library__search-bar input::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.header-library__search-bar__div {
+  position: relative;
+}
+
+.header-library__search-bar__div__for-i-div {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: right;
+}
+
+.header-library__search-bar__div__for-i-div i {
+  opacity: 0.2;
 }
