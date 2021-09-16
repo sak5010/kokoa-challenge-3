@@ -9,13 +9,15 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: bisque;
 }
 
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   width: 500px;
-  height: 1500px;
+  height: 1350px;
+  background-color: whitesmoke;
 }
 
 h1 {
