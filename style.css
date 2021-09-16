@@ -209,3 +209,40 @@ h2 {
   color: gray;
   opacity: 0.2;
 }
+
+/* popular-authors */
+
+.popular-authors {
+  margin: 0 30px;
+}
+
+.popular-authors__h1 {
+  margin: 36px 0;
+}
+
+.popular-authors__content {
+  display: flex;
+}
+
+.popular-authors__content__img {
+  width: 180px;
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.popular-authors__content__meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.popular-authors__content__meta__h2 {
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.popular-authors__content__meta__p {
+  line-height: 24px;
+  opacity: 0.4;
+}
